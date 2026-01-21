@@ -1,4 +1,3 @@
 # Implementation Log
 
-- 2026-01-19: Phase A repo hygiene completed; checkpoint v0.0-repo-audit created.
-- 2026-01-19: Phase B readiness audit completed; blockers recorded (manifest missing, Docker unavailable).
+- 2026-01-19: Phase 0 scaffold started; static landing assets removed to comply with evidence-first requirements.

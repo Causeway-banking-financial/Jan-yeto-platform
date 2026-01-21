@@ -1,3 +1,3 @@
 # Assumptions
 
-- No additional repository files were present beyond the root artifacts shown in Phase A discovery.
+- The repository will follow the phased delivery plan before reintroducing any public-facing UI copy.

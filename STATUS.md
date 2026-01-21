@@ -1,10 +1,7 @@
 # Status
 
-- Current phase: Phase B — Implementation readiness audit
-- Progress: Audit completed with blockers (missing data pack manifest; Docker unavailable).
-- Current branch: feature/codex-autobuild
-- Latest tags: v0.0-readiness-audit, v0.0-repo-audit
+- Current phase: Phase 1 — Docker Compose stack (pending)
+- Progress: Phase 0 scaffold complete on branch feature/codex-autobuild.
 - Next commands:
-  - Obtain data pack manifest (SHA256 list) and clear blockers.
-  - Install/enable Docker + docker-compose to run DB checks.
-  - Resume Phase B verification and proceed to Phase C only after blockers cleared.
+  - Implement docker-compose.yml, Dockerfiles, and .env.example.
+  - Commit Phase 1 with message "feat: docker local stack".

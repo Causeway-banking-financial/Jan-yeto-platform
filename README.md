@@ -1,43 +1,33 @@
-# YETO Intelligence Platform
+# YETO Platform
 
-A premium, publication-ready landing experience for the YETO Intelligence Platform. The site presents a
-complete architecture overview, governance chain, sector dashboards, and the CAC Resistor Handbook section
-requested for launch readiness.
+YETO is a bilingual (English + Arabic) economic transparency platform for Yemen with evidence-first analytics,
+provenance tracking, and compliance-safe workflows.
 
-## Highlights
+## Local Development
 
-- **Full-site narrative** covering registry ingestion, in-database AI, governance, and activation.
-- **CAC Resistor Handbook** section with compliance-ready documentation expectations.
-- **Modern visual system** with a clean grid, gradient accents, and responsive layouts.
-- **Ready to publish**: static site, zero build tooling required.
-
-## Project Structure
-
-```text
-.
-├── index.html
-├── styles.css
-└── script.js
-```
-
-## Run Locally
+This repository will run via Docker Compose once the required services are implemented. The target command is:
 
 ```bash
-python -m http.server 8000
+docker compose up --build
 ```
 
-Then visit `http://localhost:8000` in your browser.
+## Repository Structure (initial scaffold)
 
-## Deployment
+```text
+apps/
+  api/
+  web/
+backups/
+db/
+  init/
+  schema/
+  seeds/
+docs/
+docker/
+infra/terraform/
+scripts/
+```
 
-Upload the repository to any static host (Netlify, Vercel, GitHub Pages, or your own server).
+## Contact
 
-## Content Notes
-
-- Metrics, registry counts, and governance steps can be customized in `index.html`.
-- Theme colors and spacing tokens live in `styles.css`.
-- Smooth scrolling and dynamic year updates are handled in `script.js`.
-
-## License
-
-This project is provided as-is for the YETO Intelligence Platform.
+For access or inquiries: yeto@causewaygrp.com
